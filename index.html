@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Abbreviation</title>
+</head>
+
+<style type="text/css">
+	*{
+		background: black;
+		color: white;
+		margin: 0;
+	}
+	table{
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+   width: 90%;
+    }
+    td,th{
+      border: none;
+      text-align: center;
+      padding: 2px;
+    }
+    
+
+    .input{
+    	padding: 10px 12px;
+    	font-size: 16px;
+    	border-radius: 20px;
+    	width: 50%;
+    	background: beige;
+    	border: none;
+    	color: black;
+    }
+
+    #header{
+    	padding: 10px 12px;
+    	background: #08424a;
+    	width: 100%;
+    }
+
+    #header a{
+    	background: transparent;
+    	color: beige;
+    	font-size: 18px;
+    	padding: 10px 12px;
+    }
+</style>
+<body>
+
+<div id="page">
+
+	<div id="header">
+		<a>Finder</a>
+	</div>
+	<br/>
+	<br/>
+<br/>
+    
+    <center>
+	<input class="input" id="input" type="text" name="search" placeholder="search abbrev..." onkeyup="Searching()" />
+   </center>
+	<br/>
+	<br/>
+<br/>
+
+	<table id="table">
+		<tr>
+			<th>Abbrev</th>
+			<th>Meaning</th>
+		</tr>
+	</table>
+</div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
